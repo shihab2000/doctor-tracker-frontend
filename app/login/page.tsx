@@ -13,8 +13,8 @@ import { api } from "@/lib/api";
 export default function Login() {
   const router = useRouter();
 
-  const [email, setEmail] = useState("admin@doctortracker.local");
-  const [password, setPassword] = useState("ChangeMe123!");
+  const [email, setEmail] = useState("admin@gmail.com");
+  const [password, setPassword] = useState("shihab/2002");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
 
